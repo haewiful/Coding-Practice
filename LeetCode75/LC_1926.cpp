@@ -2,7 +2,7 @@
 -- Notes --
 > Next time, instead of vector<int> using std::pair will be much more better.
 	Since we can use something like this
-	pair<int, int> [i, j] = q.front();
+	auto [i, j] = q.front();
 */
 
 class Solution {
